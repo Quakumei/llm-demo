@@ -6,16 +6,6 @@ Before running the scripts in the repo, please provide
 huggingfaces Access Token for write to create repo for 
 finetuned model. 
 
-You can get `HF_WRITE_TOKEN` [here](https://huggingface.co/settings/tokens)
-
-```bash
-cd scripts/demo
-cat .env.template > .env
-nvim .env
-
-pip install -r requirements.txt
-```
-
 ## 1. Running model out-of-box
 
 There are three main models, which I can recommend to try out
